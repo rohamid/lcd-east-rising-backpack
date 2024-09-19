@@ -6459,6 +6459,12 @@
 		(uuid "6a37c2e4-5215-4127-8a72-82d533a396ef")
 	)
 	(junction
+		(at 184.15 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6be9a84e-fce0-4cf8-95de-6630350f9a7e")
+	)
+	(junction
 		(at 163.83 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6625,6 +6631,16 @@
 			(type default)
 		)
 		(uuid "04139374-c8e9-45e0-b817-437d64186ace")
+	)
+	(wire
+		(pts
+			(xy 184.15 124.46) (xy 184.15 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0531cbfd-f13a-4f4f-8c80-1f7421fcacba")
 	)
 	(wire
 		(pts
@@ -7085,6 +7101,16 @@
 			(type default)
 		)
 		(uuid "3173955e-ec76-4737-8dcd-23a82e34afa9")
+	)
+	(wire
+		(pts
+			(xy 163.83 124.46) (xy 165.1 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3390b0a6-9796-45dd-81d1-61ff3a55548a")
 	)
 	(wire
 		(pts
@@ -7725,6 +7751,16 @@
 			(type default)
 		)
 		(uuid "6a453333-6e94-4ce5-876d-2dcc6ffcc51f")
+	)
+	(wire
+		(pts
+			(xy 180.34 124.46) (xy 184.15 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cefb365-63a8-49b1-8661-6032fa61512f")
 	)
 	(wire
 		(pts
@@ -8558,6 +8594,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 124.46) (xy 172.72 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bef280fe-ad1c-4590-a290-6ef9a2754257")
+	)
+	(wire
+		(pts
 			(xy 251.46 85.09) (xy 238.76 85.09)
 		)
 		(stroke
@@ -9238,6 +9284,16 @@
 	)
 	(wire
 		(pts
+			(xy 163.83 120.65) (xy 163.83 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "facb2183-fe16-4daa-9299-bb9e4a5a3e5c")
+	)
+	(wire
+		(pts
 			(xy 82.55 80.01) (xy 90.17 80.01)
 		)
 		(stroke
@@ -9532,6 +9588,7 @@
 	)
 	(label "DAT0"
 		(at -72.39 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9971,6 +10028,7 @@
 	)
 	(label "CLK"
 		(at -72.39 106.68 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10080,6 +10138,7 @@
 	)
 	(label "DAT2"
 		(at -72.39 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10090,6 +10149,7 @@
 	)
 	(label "DAT3"
 		(at -72.39 99.06 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10364,6 +10424,7 @@
 	)
 	(label "SD_DET"
 		(at -72.39 119.38 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10572,6 +10633,7 @@
 	)
 	(label "CMD"
 		(at -72.39 101.6 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10604,6 +10666,7 @@
 	)
 	(label "DAT1"
 		(at -72.39 114.3 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15378,6 +15441,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 163.83 120.65 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a35035a8-0a89-4011-bc79-dba9cad5f0ed")
+		(property "Reference" "#PWR039"
+			(at 163.83 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 163.83 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 163.83 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c494fa3a-3688-41e4-a0ab-f152dc05877c")
+		)
+		(instances
+			(project "lcd-square-4-4848"
+				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
+					(reference "#PWR039")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 147.32 69.85 0)
 		(unit 1)
@@ -15938,6 +16067,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small")
+		(at 167.64 124.46 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c695201c-30ae-4e9a-96ec-64971f9f35fc")
+		(property "Reference" "R16"
+			(at 167.64 119.38 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2K"
+			(at 167.64 121.92 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 167.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 167.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 167.64 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fbd88cf-205d-43a2-8b78-ab714e04a746")
+		)
+		(pin "2"
+			(uuid "8e749daf-4cc7-4465-b2c9-e8fff779ea6a")
+		)
+		(instances
+			(project "lcd-square-4-4848"
+				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
+					(reference "R16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CR1220-Batt-conn-S8411-45R:S8411-45R")
 		(at 68.58 184.15 0)
 		(unit 1)
@@ -16323,6 +16520,75 @@
 			(project "lcd-square-4-4848"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 176.53 124.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc69c99a-8d17-4418-b534-819bbb3d6d2d")
+		(property "Reference" "D5"
+			(at 178.1175 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 178.1175 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 176.53 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de0a1e97-3c1f-4c28-b287-c074aa41c12d")
+		)
+		(pin "1"
+			(uuid "d73a35e7-12e4-4ada-9ed0-617558ce9b8b")
+		)
+		(instances
+			(project "lcd-square-4-4848"
+				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
+					(reference "D5")
 					(unit 1)
 				)
 			)
