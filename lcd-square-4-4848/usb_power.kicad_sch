@@ -1622,6 +1622,7 @@
 	(hierarchical_label "D+"
 		(shape bidirectional)
 		(at 180.34 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1633,6 +1634,7 @@
 	(hierarchical_label "D-"
 		(shape bidirectional)
 		(at 180.34 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1769,7 +1771,7 @@
 			(uuid "e7b9a003-3f54-4e90-be11-7e4fd2b1b533")
 		)
 		(instances
-			(project ""
+			(project "lcd-square-4-4848"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/0c5320c9-bf3a-41fe-aa68-b6c4bdc53e81"
 					(reference "C8")
 					(unit 1)
@@ -1836,7 +1838,7 @@
 			(uuid "df6b634f-4e25-4249-9ed4-7e137068081a")
 		)
 		(instances
-			(project ""
+			(project "lcd-square-4-4848"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/0c5320c9-bf3a-41fe-aa68-b6c4bdc53e81"
 					(reference "#PWR037")
 					(unit 1)
@@ -1904,7 +1906,7 @@
 			(uuid "eaf57f44-82c2-4cd7-9dc6-c3c2080deb91")
 		)
 		(instances
-			(project ""
+			(project "lcd-square-4-4848"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/0c5320c9-bf3a-41fe-aa68-b6c4bdc53e81"
 					(reference "R9")
 					(unit 1)
@@ -1970,7 +1972,7 @@
 			(uuid "a934da81-5dfa-40ea-958e-495ee6c9a48f")
 		)
 		(instances
-			(project ""
+			(project "lcd-square-4-4848"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/0c5320c9-bf3a-41fe-aa68-b6c4bdc53e81"
 					(reference "#PWR035")
 					(unit 1)
@@ -2036,7 +2038,7 @@
 			(uuid "af749239-32f6-45d3-b4b3-b08f75f216b7")
 		)
 		(instances
-			(project ""
+			(project "lcd-square-4-4848"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/0c5320c9-bf3a-41fe-aa68-b6c4bdc53e81"
 					(reference "#PWR036")
 					(unit 1)
@@ -2106,7 +2108,7 @@
 			(uuid "78b0ca93-4a98-4562-9d2a-836d5faee9b1")
 		)
 		(instances
-			(project ""
+			(project "lcd-square-4-4848"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/0c5320c9-bf3a-41fe-aa68-b6c4bdc53e81"
 					(reference "C9")
 					(unit 1)
@@ -2290,7 +2292,7 @@
 			(uuid "120d485f-824b-4323-9c17-4416d9a9ad49")
 		)
 		(instances
-			(project ""
+			(project "lcd-square-4-4848"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/0c5320c9-bf3a-41fe-aa68-b6c4bdc53e81"
 					(reference "J4")
 					(unit 1)
