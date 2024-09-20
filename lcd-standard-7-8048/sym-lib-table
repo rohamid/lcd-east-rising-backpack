@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "siplex-som")(type "KiCad")(uri "${KIPRJMOD}/siplex-som.kicad_sym")(options "")(descr ""))
+  (lib (name "CR1220-Batt-conn-S8411-45R")(type "KiCad")(uri "${KIPRJMOD}/lib/CR1220-Batt-conn-S8411-45R/CR1220-Batt-conn-S8411-45R.kicad_sym")(options "")(descr ""))
+)
