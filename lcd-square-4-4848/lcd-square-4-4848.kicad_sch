@@ -6447,6 +6447,12 @@
 		(uuid "579eaf93-eb13-440b-b40e-c8a168dd8088")
 	)
 	(junction
+		(at 129.54 189.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5c47ca58-4eb8-41e8-a416-2409aca0bbc6")
+	)
+	(junction
 		(at 185.42 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6579,10 +6585,6 @@
 	(no_connect
 		(at 147.32 186.69)
 		(uuid "5b25e88f-4024-41b4-87ff-9ac9ce4cde03")
-	)
-	(no_connect
-		(at 147.32 189.23)
-		(uuid "83da152f-7813-4c34-a785-8aed7f910e5a")
 	)
 	(no_connect
 		(at 251.46 52.07)
@@ -7111,6 +7113,16 @@
 			(type default)
 		)
 		(uuid "2ec46a76-b092-4a79-8615-14db3e080f06")
+	)
+	(wire
+		(pts
+			(xy 135.89 189.23) (xy 147.32 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f5cd321-42ef-4ebe-827e-bf7ad8db372c")
 	)
 	(wire
 		(pts
@@ -8094,16 +8106,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 184.15) (xy 144.78 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88acc43a-6104-4f37-ab91-1b2ff8ed99e9")
-	)
-	(wire
-		(pts
 			(xy 72.39 52.07) (xy 64.77 52.07)
 		)
 		(stroke
@@ -8301,6 +8303,16 @@
 			(type default)
 		)
 		(uuid "9980f86c-06a2-4e99-b1ee-10406b197a9d")
+	)
+	(wire
+		(pts
+			(xy 129.54 189.23) (xy 130.81 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cb200f8-83f0-4b7b-8a14-6057040edcb0")
 	)
 	(wire
 		(pts
@@ -8611,6 +8623,16 @@
 			(type default)
 		)
 		(uuid "b169b9ca-0b89-4f0f-87be-5cbbd718b0ca")
+	)
+	(wire
+		(pts
+			(xy 129.54 184.15) (xy 129.54 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b298b0a2-23ae-4417-bfcf-af9f543062ed")
 	)
 	(wire
 		(pts
@@ -9214,6 +9236,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 189.23) (xy 129.54 189.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7d391a7-4116-4ad3-a832-ffd128e46519")
+	)
+	(wire
+		(pts
 			(xy 64.77 39.37) (xy 72.39 39.37)
 		)
 		(stroke
@@ -9231,6 +9263,16 @@
 			(type default)
 		)
 		(uuid "e85f9dd6-5a78-4dec-b795-99038656a13d")
+	)
+	(wire
+		(pts
+			(xy 129.54 184.15) (xy 144.78 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c76935-3155-4800-b78d-d987f2d4041a")
 	)
 	(wire
 		(pts
@@ -12574,6 +12616,73 @@
 			(project "lcd-square-4-4848"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
 					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 189.23 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42a1ed1a-7976-454f-88b0-99dd1517c26b")
+		(property "Reference" "#PWR07"
+			(at 121.92 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 124.46 189.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11d39342-86ba-499f-b547-555d446c52aa")
+		)
+		(instances
+			(project "lcd-square-4-4848"
+				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -16650,6 +16759,74 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small")
+		(at 133.35 189.23 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c8c2dc79-bf71-4457-aef6-4d52990b2d4d")
+		(property "Reference" "R17"
+			(at 133.35 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 133.35 191.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 133.35 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small symbol"
+			(at 133.35 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "56bb8046-eb70-43e5-9c65-248fdaf29c37")
+		)
+		(pin "2"
+			(uuid "5878a3c8-fa05-4060-88a2-87b52416caed")
+		)
+		(instances
+			(project "lcd-square-4-4848"
+				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
+					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small")
 		(at 214.63 119.38 0)
 		(mirror y)
 		(unit 1)
@@ -16713,73 +16890,6 @@
 			(project "lcd-square-4-4848"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
 					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 140.97 184.15 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cb77d50a-66a5-4b33-a4c1-aab3aad5b5f3")
-		(property "Reference" "#PWR010"
-			(at 134.62 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 137.16 184.1499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 140.97 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 140.97 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 140.97 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e174c26a-d889-4c7d-8eb9-52166292ea4d")
-		)
-		(instances
-			(project "lcd-square-4-4848"
-				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
-					(reference "#PWR010")
 					(unit 1)
 				)
 			)
