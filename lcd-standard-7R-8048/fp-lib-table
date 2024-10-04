@@ -1,0 +1,10 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "siplex")(type "KiCad")(uri "${KIPRJMOD}/siplex.pretty")(options "")(descr ""))
+  (lib (name "CR1220-Batt-conn-S8411-45R")(type "KiCad")(uri "${KIPRJMOD}/lib/CR1220-Batt-conn-S8411-45R/CR1220-Batt-conn-S8411-45R.pretty")(options "")(descr ""))
+  (lib (name "SD_CARD-TF-01A")(type "KiCad")(uri "${KIPRJMOD}/lib/SD_CARD-TF-01A/SD_CARD-TF-01A.pretty")(options "")(descr ""))
+  (lib (name "TF-115")(type "KiCad")(uri "${KIPRJMOD}/lib/TF-115.pretty")(options "")(descr ""))
+  (lib (name "neochrom-logo")(type "KiCad")(uri "${KIPRJMOD}/lib/neochrom-logo.pretty")(options "")(descr ""))
+  (lib (name "S4B-XH-SM4-TB_LF__SN")(type "KiCad")(uri "${KIPRJMOD}/lib/S4B-XH-SM4-TB_LF__SN_/S4B-XH-SM4-TB_LF__SN.pretty")(options "")(descr ""))
+  (lib (name "SMD-Buzzer")(type "KiCad")(uri "${KIPRJMOD}/lib/SMD-Buzzer.pretty")(options "")(descr ""))
+)
