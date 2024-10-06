@@ -10832,6 +10832,12 @@
 		(uuid "ad26ca6f-075c-45e4-9c50-5dc2c1bb7aed")
 	)
 	(junction
+		(at 349.25 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1385876-bf84-4b68-800e-f6fe109d911f")
+	)
+	(junction
 		(at 67.31 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -11199,16 +11205,6 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 194.31) (xy 349.25 198.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "05c3c271-eb18-4292-bd31-4f04c71aaaba")
-	)
-	(wire
-		(pts
 			(xy 172.72 85.09) (xy 196.85 85.09)
 		)
 		(stroke
@@ -11526,6 +11522,16 @@
 			(type default)
 		)
 		(uuid "147aa15f-7b60-4e80-aee8-6a512ef3d558")
+	)
+	(wire
+		(pts
+			(xy 349.25 160.02) (xy 341.63 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "149b231b-7a12-43ab-af6e-2c001af4c284")
 	)
 	(wire
 		(pts
@@ -13069,6 +13075,16 @@
 	)
 	(wire
 		(pts
+			(xy 349.25 160.02) (xy 349.25 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5945dbe4-a978-4073-9648-eeee2a63ab2c")
+	)
+	(wire
+		(pts
 			(xy 173.99 30.48) (xy 163.83 30.48)
 		)
 		(stroke
@@ -13416,6 +13432,16 @@
 			(type default)
 		)
 		(uuid "6b25bef6-7662-46e8-b62a-756603f6bb5b")
+	)
+	(wire
+		(pts
+			(xy 24.13 138.43) (xy 36.83 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b30bd20-cfb3-4e97-9ec1-696608d6426c")
 	)
 	(wire
 		(pts
@@ -15669,7 +15695,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 160.02) (xy 341.63 160.02)
+			(xy 354.33 160.02) (xy 349.25 160.02)
 		)
 		(stroke
 			(width 0)
@@ -17868,6 +17894,17 @@
 			(justify left bottom)
 		)
 		(uuid "41b2c1be-8a91-4802-b4a0-e7278cc9ca41")
+	)
+	(label "SD_DET"
+		(at 24.13 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "436d1301-e36a-4f2b-9587-0326bdaf69a4")
 	)
 	(label "USB_VBUS_DET"
 		(at 80.01 123.19 180)
@@ -23286,16 +23323,16 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic_MountingPin:Conn_01x10_MountingPin")
-		(at 349.25 176.53 0)
+		(at 349.25 179.07 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "41e36e6b-8a53-445d-95fa-604db4e69b5d")
 		(property "Reference" "J10"
-			(at 351.79 176.8855 0)
+			(at 351.79 178.7145 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23304,7 +23341,7 @@
 			)
 		)
 		(property "Value" "Conn_01x10_MountingPin"
-			(at 351.79 179.4255 0)
+			(at 351.79 176.1745 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23313,7 +23350,7 @@
 			)
 		)
 		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-10S-0.5SH_1x10-1MP_P0.50mm_Horizontal"
-			(at 349.25 176.53 0)
+			(at 349.25 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23322,7 +23359,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 349.25 176.53 0)
+			(at 349.25 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -23331,7 +23368,7 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 349.25 176.53 0)
+			(at 349.25 179.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34154,72 +34191,6 @@
 			(project "lcd-standard-5R"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 349.25 198.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2b6ff8c-8991-4860-abf9-cf54a2ebe2ce")
-		(property "Reference" "#PWR0107"
-			(at 349.25 204.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 349.25 203.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 349.25 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 349.25 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 349.25 198.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f85d5fe8-5440-41f5-9c51-69c7d20c68fb")
-		)
-		(instances
-			(project "lcd-standard-7R-8048"
-				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
-					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
