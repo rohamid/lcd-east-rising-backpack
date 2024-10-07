@@ -14911,6 +14911,16 @@
 	)
 	(wire
 		(pts
+			(xy -26.67 -38.1) (xy -26.67 -35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4c447c4-ac9c-4ed9-a951-fcc70c040d3f")
+	)
+	(wire
+		(pts
 			(xy 99.06 82.55) (xy 86.36 82.55)
 		)
 		(stroke
@@ -15788,6 +15798,16 @@
 			(type default)
 		)
 		(uuid "cabb55e5-db50-465e-8191-b3edf5300620")
+	)
+	(wire
+		(pts
+			(xy 24.13 138.43) (xy 36.83 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cabf064c-21c3-4838-97da-2eb073ded3d1")
 	)
 	(wire
 		(pts
@@ -19145,6 +19165,17 @@
 		)
 		(uuid "bed82dbd-ef15-43a7-ba52-c2a23d85f980")
 	)
+	(label "SD_DET"
+		(at 24.13 138.43 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bf54afee-832f-4d8b-8813-57f15c30ddd4")
+	)
 	(label "SERIAL_TX"
 		(at 24.13 102.87 0)
 		(fields_autoplaced yes)
@@ -21291,7 +21322,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "50"
 			(at 74.676 53.594 90)
 			(effects
 				(font
@@ -21513,7 +21544,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "50"
 			(at 74.676 73.914 90)
 			(effects
 				(font
@@ -22310,7 +22341,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_FFC-FPC:Hirose_FH12-6S-0.5SH_1x06-1MP_P0.50mm_Horizontal"
+		(property "Footprint" "Connector_FPC:Conn_FPC_6P_0.5mm_XUNPU_FPC-05FB-6PH20"
 			(at 342.9 180.34 0)
 			(effects
 				(font
@@ -22427,6 +22458,72 @@
 			(project "lcd-standard-5R"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at -26.67 -38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "321c32fc-3fb7-4431-bc23-6d844b28bd28")
+		(property "Reference" "#PWR0107"
+			(at -26.67 -34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at -26.67 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -26.67 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at -26.67 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at -26.67 -38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2abbec0a-5e1b-4f14-abc5-6c1b756cd664")
+		)
+		(instances
+			(project "lcd-standard-5R"
+				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -22658,7 +22755,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "50"
 			(at 74.676 94.234 90)
 			(effects
 				(font
@@ -23695,7 +23792,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "50"
 			(at 74.676 104.394 90)
 			(effects
 				(font
@@ -23781,7 +23878,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "50"
 			(at 74.676 63.754 90)
 			(effects
 				(font
@@ -27899,7 +27996,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "50"
 			(at 74.676 84.074 90)
 			(effects
 				(font
@@ -28789,7 +28886,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_SHL_SM10B-SHLS-TF_1x10-1MP_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_FPC:Conn_FPC_10P_1mm_G-SWITCH_GT-F1008SR20-10SMT01"
 			(at -107.95 49.53 0)
 			(effects
 				(font
@@ -32245,7 +32342,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "50"
 			(at 81.026 25.146 90)
 			(effects
 				(font

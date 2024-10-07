@@ -7,4 +7,5 @@
   (lib (name "neochrom-logo")(type "KiCad")(uri "${KIPRJMOD}/lib/neochrom-logo.pretty")(options "")(descr ""))
   (lib (name "S4B-XH-SM4-TB_LF__SN")(type "KiCad")(uri "${KIPRJMOD}/lib/S4B-XH-SM4-TB_LF__SN_/S4B-XH-SM4-TB_LF__SN.pretty")(options "")(descr ""))
   (lib (name "SMD-Buzzer")(type "KiCad")(uri "${KIPRJMOD}/lib/SMD-Buzzer.pretty")(options "")(descr ""))
+  (lib (name "Connector_FPC")(type "KiCad")(uri "C:/Users/user/Documents/Kicad_project/kicad_custom_libraries/Connector_FPC.pretty")(options "")(descr ""))
 )
