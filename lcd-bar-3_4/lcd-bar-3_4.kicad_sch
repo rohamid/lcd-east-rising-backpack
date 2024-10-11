@@ -10991,6 +10991,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at 172.72 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "fff241ac-261d-4281-8feb-fb6f076f2b7d")
 		)
@@ -11166,7 +11175,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 173.99 35.56 0)
 			(effects
 				(font
@@ -11185,6 +11194,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 173.99 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1525 "
 			(at 173.99 35.56 0)
 			(effects
 				(font
@@ -11622,7 +11640,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "100"
 			(at 88.646 50.546 90)
 			(effects
 				(font
@@ -11649,6 +11667,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
+			(at 95.25 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C48442 "
 			(at 95.25 54.61 0)
 			(effects
 				(font
@@ -11707,7 +11734,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "100"
 			(at 88.646 70.866 90)
 			(effects
 				(font
@@ -11734,6 +11761,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
+			(at 95.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C48442 "
 			(at 95.25 74.93 0)
 			(effects
 				(font
@@ -11906,6 +11942,15 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
+			(at 144.78 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C48192"
 			(at 144.78 166.37 0)
 			(effects
 				(font
@@ -12184,6 +12229,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" ""
+			(at -26.67 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "6"
 			(uuid "f402e1d8-d1b2-499d-a0b0-099c4ebc96b8")
 		)
@@ -12243,7 +12297,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "100"
 			(at 88.646 60.706 90)
 			(effects
 				(font
@@ -12270,6 +12324,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
+			(at 95.25 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C48442 "
 			(at 95.25 64.77 0)
 			(effects
 				(font
@@ -12432,6 +12495,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C71045 "
+			(at 163.83 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "aa7d2dbc-9017-4b61-8cf6-d4c54f3daf3b")
 		)
@@ -12503,6 +12575,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 207.01 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744 "
 			(at 207.01 119.38 0)
 			(effects
 				(font
@@ -12835,6 +12916,15 @@
 			)
 		)
 		(property "Description" "Generic connector, double row, 02x07, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 152.4 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C5160763C5160763 "
 			(at 152.4 184.15 0)
 			(effects
 				(font
@@ -13216,6 +13306,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C7420330"
+			(at 179.07 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "20f18d72-3785-47cb-9f8d-c8793517059b")
 		)
@@ -13352,6 +13451,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C1525 "
+			(at 196.85 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "04e47aa5-c761-4fa7-9ac4-c3db39834fdc")
 		)
@@ -13385,7 +13493,7 @@
 				)
 			)
 		)
-		(property "Value" "6.8u"
+		(property "Value" "4.7u"
 			(at 163.83 52.07 90)
 			(effects
 				(font
@@ -13412,6 +13520,15 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
+			(at 163.83 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C57269 "
 			(at 163.83 54.61 0)
 			(effects
 				(font
@@ -13490,6 +13607,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C15850 "
+			(at 163.83 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "3922b9fe-f4fc-49a5-a17c-d40d376b4650")
 		)
@@ -13558,6 +13684,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C127488 "
+			(at 101.6 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b635d093-2e34-458c-879a-146ef601cc77")
 		)
@@ -13590,7 +13725,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "100"
 			(at 88.646 81.026 90)
 			(effects
 				(font
@@ -13617,6 +13752,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
+			(at 95.25 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C48442 "
 			(at 95.25 85.09 0)
 			(effects
 				(font
@@ -13705,6 +13849,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x40, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 256.54 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C225713 "
 			(at 256.54 87.63 0)
 			(effects
 				(font
@@ -13964,6 +14117,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C127488 "
+			(at 101.6 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fe9290ab-57d4-4ffc-9f29-b042dec3645f")
 		)
@@ -14033,6 +14195,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25744 "
+			(at 224.79 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4eb9a361-71ea-4051-af3a-a567d6d87a32")
 		)
@@ -14093,6 +14264,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
+			(at 153.67 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1017 "
 			(at 153.67 30.48 0)
 			(effects
 				(font
@@ -14171,6 +14351,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C15849 "
+			(at 185.42 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9bcac6fc-6934-4679-a503-d28cfba29984")
 		)
@@ -14192,7 +14381,7 @@
 		(at 50.8 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -14233,6 +14422,15 @@
 		)
 		(property "Description" ""
 			(at 50.8 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
+			(at 50.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14560,6 +14758,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 185.42 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C228038"
 			(at 185.42 90.17 0)
 			(effects
 				(font
@@ -14903,6 +15110,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25744 "
+			(at 223.52 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0cf09dbf-3509-42c3-8e4a-c94b8f82effa")
 		)
@@ -14965,6 +15181,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 154.94 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25744 "
 			(at 154.94 72.39 0)
 			(effects
 				(font
@@ -15281,7 +15506,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 136.8552 74.93 0)
 			(effects
 				(font
@@ -15300,6 +15525,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 135.89 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C15850 "
 			(at 135.89 71.12 0)
 			(effects
 				(font
@@ -15445,6 +15679,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C15849 "
+			(at 196.85 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e6982b40-db30-4bec-af7d-7b8b97ba0264")
 		)
@@ -15477,7 +15720,7 @@
 				)
 			)
 		)
-		(property "Value" "22"
+		(property "Value" "100"
 			(at 88.646 25.146 90)
 			(effects
 				(font
@@ -15504,6 +15747,15 @@
 			)
 		)
 		(property "Description" "4 resistor network, parallel topology"
+			(at 95.25 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C48442 "
 			(at 95.25 29.21 0)
 			(effects
 				(font
@@ -15592,6 +15844,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 214.63 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C25879 "
 			(at 214.63 119.38 0)
 			(effects
 				(font
@@ -15802,6 +16063,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C25879 "
+			(at 217.17 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "adfcaba0-ee37-4006-8dfa-aa42a88bd989")
 		)
@@ -15901,7 +16171,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "13.6R"
+		(property "Value" "13.7R"
 			(at 175.26 91.4399 0)
 			(effects
 				(font
@@ -15929,6 +16199,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 172.72 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C482772"
 			(at 172.72 90.17 0)
 			(effects
 				(font
@@ -15999,6 +16278,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 185.42 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 185.42 99.06 0)
 			(effects
 				(font
@@ -16116,7 +16404,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 246.38 143.51 0)
 			(effects
 				(font
@@ -16135,6 +16423,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 246.38 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" "C1525 "
 			(at 246.38 143.51 0)
 			(effects
 				(font
@@ -16205,6 +16502,15 @@
 			)
 		)
 		(property "Description" "Generic connectable mounting pin connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 135.89 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLCPCB Part #" ""
 			(at 135.89 116.84 0)
 			(effects
 				(font
