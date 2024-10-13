@@ -181,6 +181,8 @@
         0.0,
         0.25,
         0.3,
+        0.4,
+        0.5,
         0.6,
         0.9,
         1.2,
@@ -585,8 +587,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
-      "pos_files": "",
+      "plot": "gerber/",
+      "pos_files": "B.O.M/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -613,13 +615,13 @@
       "fields_ordered": [
         {
           "group_by": false,
-          "label": "Reference",
+          "label": "Designator",
           "name": "Reference",
           "show": true
         },
         {
           "group_by": true,
-          "label": "Value",
+          "label": "Comment",
           "name": "Value",
           "show": true
         },
@@ -639,7 +641,7 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": false
+          "show": true
         },
         {
           "group_by": true,
@@ -803,6 +805,38 @@
     [
       "0c5320c9-bf3a-41fe-aa68-b6c4bdc53e81",
       "USB_POWER"
+    ],
+    [
+      "fa4380ae-082b-4aaa-899e-4e95af6cb3af",
+      "MCU"
+    ],
+    [
+      "358df5a0-48a3-423f-8d2d-e1420415163e",
+      "MEMORY_FMC"
+    ],
+    [
+      "d956cb45-397d-408a-96ba-11f9ae4e3ce3",
+      "MEMORY_FLASH"
+    ],
+    [
+      "de02db69-6272-48bd-b066-f0f933e20fbf",
+      "MEMORY_SD_CARD"
+    ],
+    [
+      "64adf780-462b-4d37-99f3-7bec8d2019cf",
+      "MEMORY_EEPROM"
+    ],
+    [
+      "d9588482-1ca8-4134-8583-2eaba9a5f5dc",
+      "DISPLAY"
+    ],
+    [
+      "c5b02b58-060d-4a82-ade7-eb5cb23a0d1f",
+      "OUTPUT_SPEAKER"
+    ],
+    [
+      "fe784777-4ebf-46af-8dff-f54c8123e5a9",
+      "IO"
     ]
   ],
   "text_variables": {}
