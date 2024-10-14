@@ -1122,7 +1122,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 90.17) (xy 172.72 92.71)
+			(xy 104.14 92.71) (xy 104.14 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1302,7 +1302,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 100.33) (xy 172.72 97.79)
+			(xy 104.14 102.87) (xy 104.14 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1351,6 +1351,30 @@
 			(justify right bottom)
 		)
 		(uuid "cfdbd199-d91a-41e7-a40c-6318c9b5a0c9")
+	)
+	(hierarchical_label "EE_SDA"
+		(shape bidirectional)
+		(at 170.18 97.79 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11eaddc1-cc52-4aad-a7f1-8d1cb1a0bd15")
+	)
+	(hierarchical_label "EE_SCL"
+		(shape input)
+		(at 170.18 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c7af3d99-ff7c-4fb1-86dc-fd1e84a1d26e")
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
@@ -1668,7 +1692,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 172.72 90.17 0)
+		(at 104.14 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1677,7 +1701,7 @@
 		(fields_autoplaced yes)
 		(uuid "46f385d0-4afb-4b4d-9334-dc43795926a1")
 		(property "Reference" "#PWR072"
-			(at 172.72 93.98 0)
+			(at 104.14 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1686,7 +1710,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 172.72 85.09 0)
+			(at 104.14 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1694,7 +1718,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 90.17 0)
+			(at 104.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1703,7 +1727,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 90.17 0)
+			(at 104.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1712,7 +1736,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 172.72 90.17 0)
+			(at 104.14 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2145,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 172.72 95.25 0)
+		(at 104.14 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2130,7 +2154,7 @@
 		(fields_autoplaced yes)
 		(uuid "9e6b51c1-1d37-45ec-ac25-cb2f09d4b82d")
 		(property "Reference" "C40"
-			(at 175.26 93.9862 0)
+			(at 106.68 96.5262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2139,7 +2163,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 175.26 96.5262 0)
+			(at 106.68 99.0662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2148,7 +2172,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 172.72 95.25 0)
+			(at 104.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2157,7 +2181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 95.25 0)
+			(at 104.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,7 +2190,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 172.72 95.25 0)
+			(at 104.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2175,7 +2199,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C1525"
-			(at 172.72 95.25 0)
+			(at 104.14 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2200,7 +2224,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 100.33 0)
+		(at 104.14 102.87 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2209,7 +2233,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8f645df-7d41-473f-99d8-9fc35894813d")
 		(property "Reference" "#PWR073"
-			(at 172.72 106.68 0)
+			(at 104.14 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +2242,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 105.41 0)
+			(at 104.14 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 100.33 0)
+			(at 104.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 100.33 0)
+			(at 104.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 100.33 0)
+			(at 104.14 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)

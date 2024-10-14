@@ -1284,6 +1284,54 @@
 		)
 		(uuid "9f460314-ae27-4b67-9cb3-981aca53e6cf")
 	)
+	(hierarchical_label "I2S2_SD_MODE"
+		(shape input)
+		(at 100.33 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "05b8a366-0c69-4b6a-aad1-a6b7a4770b14")
+	)
+	(hierarchical_label "I2S2_WS"
+		(shape input)
+		(at 116.84 100.33 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "68397030-0fe1-4d71-8e69-f6e215204e73")
+	)
+	(hierarchical_label "I2S2_CLK"
+		(shape input)
+		(at 116.84 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "aef4d0e4-e036-409c-9c9f-7cdf813e7026")
+	)
+	(hierarchical_label "I2S2_SDO"
+		(shape input)
+		(at 116.84 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f861b222-5783-4431-a9fd-9aa4ee78025f")
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 167.64 105.41 0)
@@ -1635,7 +1683,7 @@
 		(dnp no)
 		(uuid "2ece9add-a84e-478a-9f17-ae1ee04bd0e0")
 		(property "Reference" "R28"
-			(at 112.522 100.584 90)
+			(at 116.586 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1644,7 +1692,7 @@
 			)
 		)
 		(property "Value" "1M"
-			(at 113.0301 102.87 90)
+			(at 109.22 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)

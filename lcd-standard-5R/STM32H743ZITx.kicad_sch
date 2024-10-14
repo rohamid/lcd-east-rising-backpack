@@ -10642,6 +10642,17 @@
 		)
 		(uuid "223b2e91-a968-4497-b2b5-f0302c114413")
 	)
+	(label "LCD_VSYNC"
+		(at 195.58 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "26883829-1ffb-4fb6-bbf4-47dcc7036267")
+	)
 	(label "SDRAM_BA0"
 		(at 283.21 63.5 180)
 		(fields_autoplaced yes)
@@ -10663,6 +10674,17 @@
 			(justify left bottom)
 		)
 		(uuid "29f13320-c61e-4977-93a9-c60bf0f1e762")
+	)
+	(label "LCD_DE"
+		(at 195.58 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3313af68-d23d-4741-b244-96cbaeb38d73")
 	)
 	(label "LTDC_B4"
 		(at 128.27 116.84 180)
@@ -10762,6 +10784,17 @@
 			(justify left bottom)
 		)
 		(uuid "57d485eb-f5f1-402e-886c-eb656d315d12")
+	)
+	(label "LCD_HSYNC"
+		(at 195.58 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5d0db9b0-91c1-45e1-82f6-e731a9d7201c")
 	)
 	(label "OSC32_IN"
 		(at 144.78 228.6 0)
@@ -11357,6 +11390,17 @@
 		)
 		(uuid "ea37d68c-957f-4a1e-b673-23b6e49476ed")
 	)
+	(label "LCD_CLK"
+		(at 195.58 58.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ecc275e6-ec79-40ed-b6b8-95439a9ad4b0")
+	)
 	(label "SDRAM_ADD9"
 		(at 36.83 198.12 0)
 		(fields_autoplaced yes)
@@ -11569,6 +11613,18 @@
 			(justify right)
 		)
 		(uuid "42d186de-6ee5-4199-aabf-c7f779b06a97")
+	)
+	(hierarchical_label "LCD_RESET"
+		(shape output)
+		(at 189.23 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44688938-6465-44ed-b22f-aaf73870fba6")
 	)
 	(hierarchical_label "LTDC_G[2..7]"
 		(shape output)
@@ -12073,6 +12129,30 @@
 			(justify left)
 		)
 		(uuid "dbb67291-ed83-4817-b8fe-d626183498c2")
+	)
+	(hierarchical_label "USB_D+"
+		(shape bidirectional)
+		(at 128.27 121.92 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "df424c35-ff09-430c-bd7f-da333f133bde")
+	)
+	(hierarchical_label "USB_D-"
+		(shape bidirectional)
+		(at 128.27 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e13efed4-d71e-423b-8cb5-153175dea7f9")
 	)
 	(hierarchical_label "SDRAM_UDQM"
 		(shape output)

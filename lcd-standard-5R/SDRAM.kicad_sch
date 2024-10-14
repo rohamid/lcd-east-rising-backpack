@@ -1574,6 +1574,18 @@
 		(uuid "98167ff4-4291-4e60-beb6-c8f20a7b2144")
 	)
 	(junction
+		(at 181.61 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ab567f72-e914-44ed-a7f2-b0fc28fe3890")
+	)
+	(junction
+		(at 99.06 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ad97da57-a2df-4d65-96c1-46cc2839f810")
+	)
+	(junction
 		(at 146.05 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2022,6 +2034,16 @@
 		)
 		(uuid "2d0d8903-8ff4-4dd4-9c79-6719241f929b")
 	)
+	(bus
+		(pts
+			(xy 176.53 80.01) (xy 181.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f21c92b-5415-4972-a980-ee955e975499")
+	)
 	(wire
 		(pts
 			(xy 166.37 45.72) (xy 166.37 48.26)
@@ -2114,6 +2136,16 @@
 	)
 	(bus
 		(pts
+			(xy 181.61 80.01) (xy 186.69 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4752a79c-11a4-4801-b24e-6fc9ae65df9b")
+	)
+	(bus
+		(pts
 			(xy 173.99 110.49) (xy 173.99 107.95)
 		)
 		(stroke
@@ -2141,6 +2173,16 @@
 			(type default)
 		)
 		(uuid "50bfaefd-6616-461f-bb15-0e38b28c814e")
+	)
+	(bus
+		(pts
+			(xy 181.61 77.47) (xy 181.61 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51759237-b1ba-4bd6-a6ad-8ed62cc1d1dd")
 	)
 	(wire
 		(pts
@@ -2271,6 +2313,16 @@
 			(type default)
 		)
 		(uuid "6f19b1aa-f767-4923-8b15-55c9faea1ebe")
+	)
+	(bus
+		(pts
+			(xy 99.06 123.19) (xy 99.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72605be1-2604-429c-bdcf-70838d3e609d")
 	)
 	(wire
 		(pts
@@ -2684,6 +2736,16 @@
 	)
 	(bus
 		(pts
+			(xy 99.06 125.73) (xy 114.3 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c65df0a3-4202-43c0-a64f-78017a1ac885")
+	)
+	(bus
+		(pts
 			(xy 173.99 118.11) (xy 173.99 115.57)
 		)
 		(stroke
@@ -2834,7 +2896,7 @@
 	)
 	(bus
 		(pts
-			(xy 107.95 125.73) (xy 114.3 125.73)
+			(xy 96.52 125.73) (xy 99.06 125.73)
 		)
 		(stroke
 			(width 0)
@@ -3367,7 +3429,7 @@
 	)
 	(hierarchical_label "SDRAM_ADD[0..12]"
 		(shape input)
-		(at 107.95 125.73 180)
+		(at 96.52 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3379,7 +3441,7 @@
 	)
 	(hierarchical_label "SDRAM_DQ[0..15]"
 		(shape bidirectional)
-		(at 176.53 80.01 0)
+		(at 186.69 80.01 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3484,6 +3546,52 @@
 			(justify right)
 		)
 		(uuid "eb1018bc-6cc3-4998-a1ed-6bd611a92788")
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 99.06 123.19 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2d49c7e4-8bf7-40e2-9266-b2bf058cf43c")
+		(property "Netclass" "SDRAM_ADDRESS"
+			(at 98.3615 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify right)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 181.61 77.47 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb9732da-4ead-40d2-8cac-109f97be8578")
+		(property "Netclass" "SDRAM_DATA"
+			(at 182.3085 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
 	)
 	(symbol
 		(lib_name "GND_1")
