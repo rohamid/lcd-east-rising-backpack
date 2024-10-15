@@ -5067,6 +5067,15 @@
 				(hide yes)
 			)
 		)
+		(property "JLCPCB Part #" "C2827654"
+			(at 175.26 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "f4de5d6b-8d9c-4401-8716-6f60c8a3f61e")
 		)
@@ -5102,10 +5111,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4b4a6097-6628-48a0-837f-a5349aaabb06")
 		(property "Reference" "C4"
-			(at 195.58 53.3399 0)
+			(at 188.214 51.816 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5113,8 +5121,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4u7"
-			(at 195.58 55.8799 0)
+		(property "Value" "4u7/0805"
+			(at 178.308 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6374,7 +6382,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1525"
+		(property "JLCPCB Part #" "C307331"
 			(at 201.93 54.61 0)
 			(effects
 				(font
@@ -6606,7 +6614,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" "C1525"
+		(property "JLCPCB Part #" "C307331"
 			(at 106.68 104.14 0)
 			(effects
 				(font
