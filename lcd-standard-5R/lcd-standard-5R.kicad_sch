@@ -2470,26 +2470,6 @@
 			)
 			(uuid "4a3dd7da-c5e9-4579-a340-981114ce7296")
 		)
-		(pin "USB_D-" bidirectional
-			(at 114.3 121.92 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "449eadcd-5119-4d7d-991c-dbd15e224285")
-		)
-		(pin "USB_D+" bidirectional
-			(at 114.3 119.38 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "8fa7fc2a-6d8f-4c65-b5c4-0eb5378d27be")
-		)
 		(instances
 			(project "lcd-standard-5R"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52"
