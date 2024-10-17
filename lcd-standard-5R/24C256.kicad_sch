@@ -1365,7 +1365,7 @@
 		(uuid "11eaddc1-cc52-4aad-a7f1-8d1cb1a0bd15")
 	)
 	(hierarchical_label "EE_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 170.18 100.33 0)
 		(fields_autoplaced yes)
 		(effects

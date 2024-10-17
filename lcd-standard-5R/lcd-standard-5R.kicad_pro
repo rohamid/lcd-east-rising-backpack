@@ -583,7 +583,13 @@
     "net_colors": null,
     "netclass_assignments": {
       "/MCU/SDRAM_ADD1": "SDRAM_ADDRESS",
+      "/MCU/SDRAM_ADD2": "SDRAM_ADDRESS",
+      "/MCU/SDRAM_ADD7": "SDRAM_ADDRESS",
+      "/MCU/SDRAM_ADD9": "SDRAM_ADDRESS",
       "/MCU/SDRAM_ADD[0..12]": "SDRAM_ADDRESS",
+      "/MCU/SDRAM_DQ12": "SDRAM_DATA",
+      "/MCU/SDRAM_DQ13": "SDRAM_DATA",
+      "/MCU/SDRAM_DQ2": "SDRAM_DATA",
       "/MCU/SDRAM_DQ3": "SDRAM_DATA",
       "/MCU/SDRAM_DQ8": "SDRAM_DATA",
       "/MCU/SDRAM_DQ[0..15]": "SDRAM_DATA"

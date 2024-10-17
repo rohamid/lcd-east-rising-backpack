@@ -9609,7 +9609,7 @@
 		(uuid "2a98729b-514d-4347-b783-15d86d2db1eb")
 	)
 	(hierarchical_label "CTP_SCL"
-		(shape input)
+		(shape bidirectional)
 		(at 130.81 163.83 180)
 		(fields_autoplaced yes)
 		(effects
