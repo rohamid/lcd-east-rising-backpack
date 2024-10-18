@@ -238,6 +238,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 80.01) (xy 114.3 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05995c1e-6eb4-46cf-b985-a34a299bbc9c")
+	)
+	(wire
+		(pts
 			(xy 26.67 177.8) (xy 33.02 177.8)
 		)
 		(stroke
@@ -308,6 +318,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 124.46) (xy 114.3 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b0bc0df-4ca6-44c2-9aa3-f49131725de9")
+	)
+	(wire
+		(pts
 			(xy 149.86 57.15) (xy 156.21 57.15)
 		)
 		(stroke
@@ -325,6 +345,16 @@
 			(type default)
 		)
 		(uuid "30ad7d65-ce5a-4bca-b07e-5129985fff37")
+	)
+	(wire
+		(pts
+			(xy 106.68 74.93) (xy 114.3 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "328aa79d-f793-45fa-826d-e11553fdcb94")
 	)
 	(wire
 		(pts
@@ -358,7 +388,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 85.09) (xy 114.3 85.09)
+			(xy 106.68 93.98) (xy 114.3 93.98)
 		)
 		(stroke
 			(width 0)
@@ -508,6 +538,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 127) (xy 114.3 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a35ac20-2892-4279-8164-cc8541fd2287")
+	)
+	(wire
+		(pts
 			(xy 149.86 148.59) (xy 156.21 148.59)
 		)
 		(stroke
@@ -528,13 +568,23 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 119.38) (xy 114.3 119.38)
+			(xy 106.68 142.24) (xy 114.3 142.24)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "a64e74f4-bf2d-4bc6-99e1-7109cc3cb9df")
+	)
+	(wire
+		(pts
+			(xy 106.68 121.92) (xy 114.3 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa8e67bb-7dba-4f46-a59d-c4b8d0265acc")
 	)
 	(bus
 		(pts
@@ -618,6 +668,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 77.47) (xy 114.3 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bf73f8d1-7d0f-43ed-87b8-6de8f17f6641")
+	)
+	(wire
+		(pts
 			(xy 149.86 74.93) (xy 156.21 74.93)
 		)
 		(stroke
@@ -678,6 +738,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 86.36) (xy 114.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df19c825-4c8d-46c7-aac6-45d8369c150f")
+	)
+	(wire
+		(pts
 			(xy 149.86 121.92) (xy 156.21 121.92)
 		)
 		(stroke
@@ -688,7 +758,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 121.92) (xy 114.3 121.92)
+			(xy 106.68 144.78) (xy 114.3 144.78)
 		)
 		(stroke
 			(width 0)
@@ -738,6 +808,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 82.55) (xy 114.3 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6815afa-f01a-449a-a345-aadfebd84c0e")
+	)
+	(wire
+		(pts
 			(xy 149.86 59.69) (xy 156.21 59.69)
 		)
 		(stroke
@@ -758,7 +838,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 82.55) (xy 114.3 82.55)
+			(xy 106.68 91.44) (xy 114.3 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1205,7 +1285,7 @@
 		)
 	)
 	(sheet
-		(at 78.74 116.84)
+		(at 78.74 139.7)
 		(size 27.94 7.62)
 		(fields_autoplaced yes)
 		(stroke
@@ -1217,7 +1297,7 @@
 		)
 		(uuid "0c5320c9-bf3a-41fe-aa68-b6c4bdc53e81")
 		(property "Sheetname" "USB_POWER"
-			(at 78.74 116.1284 0)
+			(at 78.74 138.9884 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1306,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_power.kicad_sch"
-			(at 78.74 125.0446 0)
+			(at 78.74 147.9046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1235,7 +1315,7 @@
 			)
 		)
 		(pin "D+" bidirectional
-			(at 106.68 119.38 0)
+			(at 106.68 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,7 +1325,7 @@
 			(uuid "1438eb13-f339-4eee-a7a6-e706dab62b79")
 		)
 		(pin "D-" bidirectional
-			(at 106.68 121.92 0)
+			(at 106.68 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1559,7 @@
 		)
 	)
 	(sheet
-		(at 78.74 96.52)
+		(at 78.74 119.38)
 		(size 27.94 12.7)
 		(fields_autoplaced yes)
 		(stroke
@@ -1491,7 +1571,7 @@
 		)
 		(uuid "c5b02b58-060d-4a82-ade7-eb5cb23a0d1f")
 		(property "Sheetname" "OUTPUT_SPEAKER"
-			(at 78.74 95.8084 0)
+			(at 78.74 118.6684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1500,7 +1580,7 @@
 			)
 		)
 		(property "Sheetfile" "MAX98357.kicad_sch"
-			(at 78.74 109.8046 0)
+			(at 78.74 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1509,7 +1589,7 @@
 			)
 		)
 		(pin "I2S2_CLK" input
-			(at 106.68 99.06 0)
+			(at 106.68 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1519,7 +1599,7 @@
 			(uuid "e14c0498-2ae0-43cf-b44c-8f3d5a6fabc9")
 		)
 		(pin "I2S2_SDO" input
-			(at 106.68 101.6 0)
+			(at 106.68 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1609,7 @@
 			(uuid "e38345c4-0dbd-4130-bd50-b37b3bd56f95")
 		)
 		(pin "I2S2_WS" input
-			(at 106.68 104.14 0)
+			(at 106.68 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1539,7 +1619,7 @@
 			(uuid "193cc21c-23d5-4392-b349-c037c026da70")
 		)
 		(pin "I2S2_SD_MODE" input
-			(at 106.68 106.68 0)
+			(at 106.68 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2001,7 +2081,7 @@
 			)
 		)
 		(pin "SERIAL_TX" output
-			(at 114.3 82.55 180)
+			(at 114.3 91.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2041,7 +2121,7 @@
 			(uuid "9bbf34d6-b257-43c1-87c0-4dac58e70e28")
 		)
 		(pin "SERIAL_RX" input
-			(at 114.3 85.09 180)
+			(at 114.3 93.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2091,7 +2171,7 @@
 			(uuid "d3e8dc7f-07c2-486f-85cb-34c2eb6f63c0")
 		)
 		(pin "USB_D-" bidirectional
-			(at 114.3 121.92 180)
+			(at 114.3 144.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2101,7 +2181,7 @@
 			(uuid "f4e80ba0-3bcf-46af-a80a-a96785e336d3")
 		)
 		(pin "USB_D+" bidirectional
-			(at 114.3 119.38 180)
+			(at 114.3 142.24 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2121,7 +2201,7 @@
 			(uuid "2b249021-bb2c-4d02-bdab-438bd7244b64")
 		)
 		(pin "NRST" input
-			(at 114.3 144.78 180)
+			(at 114.3 154.94 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2171,7 +2251,7 @@
 			(uuid "ced22d24-4105-4644-b40d-d50bc31c86dd")
 		)
 		(pin "AUX_PWM" output
-			(at 114.3 142.24 180)
+			(at 114.3 86.36 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2191,7 +2271,7 @@
 			(uuid "2143ab34-703d-46d2-9684-2fef06e3eaa0")
 		)
 		(pin "I2S_WS" output
-			(at 114.3 104.14 180)
+			(at 114.3 127 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2301,7 +2381,7 @@
 			(uuid "2dadb617-4d99-44af-af52-c583a646a540")
 		)
 		(pin "LED_0" output
-			(at 114.3 147.32 180)
+			(at 114.3 77.47 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2391,7 @@
 			(uuid "90c938c1-cb99-4ebd-949c-e0be082dd332")
 		)
 		(pin "LED_1" output
-			(at 114.3 149.86 180)
+			(at 114.3 74.93 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2411,7 @@
 			(uuid "c4299f84-3393-4a59-a940-3bd1e9286956")
 		)
 		(pin "BTN_1" input
-			(at 114.3 135.89 180)
+			(at 114.3 82.55 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2391,7 +2471,7 @@
 			(uuid "2daa187a-dd5d-4961-baf0-f291e0ce2c51")
 		)
 		(pin "BTN_0" input
-			(at 114.3 133.35 180)
+			(at 114.3 80.01 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,7 +2481,7 @@
 			(uuid "72f33e0a-6afc-4b83-a7ad-c54f3a6c7874")
 		)
 		(pin "I2S_CLK" output
-			(at 114.3 99.06 180)
+			(at 114.3 121.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2491,7 @@
 			(uuid "f83e60a3-55cf-45c5-841f-6ebc78a39d8c")
 		)
 		(pin "I2S_SDO" output
-			(at 114.3 101.6 180)
+			(at 114.3 124.46 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2580,7 +2660,7 @@
 	)
 	(sheet
 		(at 78.74 69.088)
-		(size 27.94 19.812)
+		(size 27.94 28.702)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2600,7 +2680,7 @@
 			)
 		)
 		(property "Sheetfile" "input-output.kicad_sch"
-			(at 78.74 89.4846 0)
+			(at 78.74 98.3746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2719,7 @@
 			(uuid "a111dd8e-d2f4-4861-b24f-7f2563c3a961")
 		)
 		(pin "BUZZER" input
-			(at 106.68 80.01 0)
+			(at 106.68 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2649,7 +2729,7 @@
 			(uuid "65947ec2-e230-471f-83d0-5794db919392")
 		)
 		(pin "SERIAL_RX" input
-			(at 106.68 82.55 0)
+			(at 106.68 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2659,7 +2739,7 @@
 			(uuid "bc4e98c0-89e4-4264-a513-508a697bdae7")
 		)
 		(pin "SERIAL_TX" output
-			(at 106.68 85.09 0)
+			(at 106.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2667,6 +2747,26 @@
 				(justify right)
 			)
 			(uuid "b0b1df3c-d270-40e3-bf2e-448ae534aff6")
+		)
+		(pin "BTN_0" output
+			(at 106.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "d0be6a89-6523-478d-90f6-0e72b182e15a")
+		)
+		(pin "BTN_1" output
+			(at 106.68 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "7223b13f-0e80-4d5a-8c6d-a34478b5b81c")
 		)
 		(instances
 			(project "lcd-standard-5R"
