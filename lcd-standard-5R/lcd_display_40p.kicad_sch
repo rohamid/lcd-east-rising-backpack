@@ -8681,6 +8681,16 @@
 			"JBBo5P+8hri2qFMuuAAAAABJRU5ErkJggg=="
 		)
 	)
+	(text "Originally this RTP ADC is designed for XPT2046\nSince it is compatible (clone) with ADS7843 it will\nreplaced by XPT2046 later on."
+		(exclude_from_sim no)
+		(at -91.186 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9f99bead-cfc6-4528-8d5b-83a713b976b6")
+	)
 	(text "45mA"
 		(exclude_from_sim no)
 		(at 124.46 112.268 0)
@@ -15724,7 +15734,7 @@
 		(at -38.1 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
-		(in_bom no)
+		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
@@ -15775,7 +15785,7 @@
 				(hide yes)
 			)
 		)
-		(property "JLCPCB Part #" ""
+		(property "JLCPCB Part #" "C364888"
 			(at -38.1 81.28 0)
 			(effects
 				(font
