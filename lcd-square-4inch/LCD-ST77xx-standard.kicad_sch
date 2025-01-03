@@ -1,0 +1,162 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "9d3b88e9-2309-41ac-a71e-463b049ecd9c")
+	(paper "A4")
+	(lib_symbols)
+	(bus
+		(pts
+			(xy 184.15 71.12) (xy 189.23 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2bc0e868-85a1-4f14-ba5e-6625e7b05a2e")
+	)
+	(bus
+		(pts
+			(xy 184.15 68.58) (xy 189.23 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4dc73570-b79a-44a0-a9b2-0b555fb2503e")
+	)
+	(wire
+		(pts
+			(xy 184.15 78.74) (xy 189.23 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "800ccd04-3c54-4643-a881-6cae2c1159e4")
+	)
+	(bus
+		(pts
+			(xy 184.15 66.04) (xy 189.23 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a787ce16-2045-4ce4-998e-2efbd39c8e8d")
+	)
+	(wire
+		(pts
+			(xy 184.15 73.66) (xy 189.23 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad83ac7c-b687-4174-8fbf-e72037817e23")
+	)
+	(wire
+		(pts
+			(xy 184.15 81.28) (xy 189.23 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c543a92c-5ec4-44b7-aa9d-012ba240d059")
+	)
+	(wire
+		(pts
+			(xy 184.15 76.2) (xy 189.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa7d23d-0062-4f84-ba78-81f745112c7f")
+	)
+	(hierarchical_label "LCD_R[3..7]"
+		(shape input)
+		(at 189.23 66.04 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3dfb6dbc-bd57-41d5-8187-0559ce810690")
+	)
+	(hierarchical_label "LCD_G[2..7]"
+		(shape input)
+		(at 189.23 68.58 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "63b2e11c-270b-4b52-af8f-748449ed9eb6")
+	)
+	(hierarchical_label "LCD_B[3..7]"
+		(shape input)
+		(at 189.23 71.12 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d47f3ae-dd0e-439f-a45b-ded4d64ed1a7")
+	)
+	(hierarchical_label "LCD_VSYNC"
+		(shape input)
+		(at 189.23 81.28 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "77ab74e4-c425-416d-8349-b4349774999f")
+	)
+	(hierarchical_label "LCD_DE"
+		(shape input)
+		(at 189.23 73.66 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "7d0706d0-c444-40a6-8ef8-942c62391559")
+	)
+	(hierarchical_label "LCD_PCLK"
+		(shape input)
+		(at 189.23 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c51c1f79-a1c0-4631-a20f-4dd7d7511e7f")
+	)
+	(hierarchical_label "LCD_HSYNC"
+		(shape input)
+		(at 189.23 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1695cbf-2d32-4231-a571-c95865459d6b")
+	)
+)
