@@ -1,0 +1,17 @@
+{
+  "jobs": [],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "a8922cc6-2075-40fb-9af5-ec84e32291bf",
+      "only": [],
+      "settings": {
+        "output_path": "lcd-standard-5R-fabs"
+      },
+      "type": "folder"
+    }
+  ]
+}
