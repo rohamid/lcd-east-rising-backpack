@@ -1,0 +1,17 @@
+{
+  "jobs": [],
+  "meta": {
+    "version": 1
+  },
+  "outputs": [
+    {
+      "description": "",
+      "id": "2b1d5ef6-8638-4adc-bca9-7c68104c62c2",
+      "only": [],
+      "settings": {
+        "output_path": "C:\\Users\\roham\\Documents\\kicad_workspace\\stm32\\lcd-east-rising-backpack\\lcd-standard-5R\\fabs\\"
+      },
+      "type": "folder"
+    }
+  ]
+}

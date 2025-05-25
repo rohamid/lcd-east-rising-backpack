@@ -1483,6 +1483,52 @@
 		)
 		(uuid "d50b7d96-e3ab-495e-8004-8f22040ccbd8")
 	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 129.54 85.09) (xy 129.54 111.76) (xy 128.27 113.03) (xy 81.28 113.03) (xy 81.28 85.09)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid f7a5bd4e-b897-41a0-9c31-42d33abcbc74)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 83.82 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7eec1e25-e5fc-475e-afce-75d6c0e293ca")
+		(property "Netclass" "SD_CARD"
+			(at 84.5185 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -33.02 -2.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
 	(symbol
 		(lib_id "power:GND")
 		(at 179.07 116.84 0)

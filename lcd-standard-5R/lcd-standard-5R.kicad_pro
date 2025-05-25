@@ -189,6 +189,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
         0.15,
         0.2,
         0.25,
@@ -231,6 +232,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.45,
+          "drill": 0.3
+        },
+        {
+          "diameter": 0.5,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -582,6 +591,57 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "name": "LTDC",
+        "pcb_color": "rgb(194, 194, 194)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "name": "PWR_3V3",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.25,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.35,
+        "name": "QSPI_FLASH",
+        "pcb_color": "rgb(255, 0, 255)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.35,
+        "name": "SDRAM",
+        "pcb_color": "rgb(0, 255, 0)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
+      },
+      {
+        "clearance": 0.2,
+        "name": "SD_CARD",
+        "pcb_color": "rgb(255, 255, 0)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.15,
+        "via_diameter": 0.5,
+        "via_drill": 0.3
+      },
+      {
+        "name": "USB",
+        "pcb_color": "rgb(255, 153, 0)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
       }
     ],
     "meta": {
@@ -589,101 +649,361 @@
     },
     "net_colors": null,
     "netclass_assignments": {
+      "/DISPLAY/B0": [
+        "LTDC"
+      ],
+      "/DISPLAY/B1": [
+        "LTDC"
+      ],
+      "/DISPLAY/B2": [
+        "LTDC"
+      ],
+      "/DISPLAY/G0": [
+        "LTDC"
+      ],
+      "/DISPLAY/G1": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_B0": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_B1": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_B2": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_B3": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_B4": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_B5": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_B6": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_B7": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_B[0..7]": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_CLK": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_DE": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_G0": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_G1": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_G2": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_G3": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_G4": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_G5": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_G6": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_G7": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_G[0..7]": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_HSYNC": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_R0": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_R1": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_R2": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_R3": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_R4": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_R5": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_R6": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_R7": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_RST": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_R[0..7]": [
+        "LTDC"
+      ],
+      "/DISPLAY/LCD_VSYNC": [
+        "LTDC"
+      ],
+      "/DISPLAY/R0": [
+        "LTDC"
+      ],
+      "/DISPLAY/R1": [
+        "LTDC"
+      ],
+      "/DISPLAY/R2": [
+        "LTDC"
+      ],
       "/MCU/SDRAM_ADD0": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_ADD1": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_ADD10": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_ADD11": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_ADD12": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_ADD2": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_ADD3": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_ADD4": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_ADD5": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_ADD6": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_ADD7": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_ADD8": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_ADD9": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_ADD[0..12]": [
-        "SDRAM_ADDRESS"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ0": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ1": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ10": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ11": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ12": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ13": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ14": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ15": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ2": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ3": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ4": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ5": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ6": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ7": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ8": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ9": [
-        "SDRAM_DATA"
+        "SDRAM"
       ],
       "/MCU/SDRAM_DQ[0..15]": [
-        "SDRAM_DATA"
+        "SDRAM"
+      ],
+      "/MCU/SD_D0": [
+        "SD_CARD"
+      ],
+      "/MCU/SD_D1": [
+        "SD_CARD"
+      ],
+      "/MCU/SD_D2": [
+        "SD_CARD"
+      ],
+      "/MCU/SD_D3": [
+        "SD_CARD"
+      ],
+      "/MCU/SD_D[0..3]": [
+        "SD_CARD"
+      ],
+      "/MEMORY_FLASH/NOR_CLK": [
+        "QSPI_FLASH"
+      ],
+      "/MEMORY_FLASH/NOR_DI(IO0)": [
+        "QSPI_FLASH"
+      ],
+      "/MEMORY_FLASH/NOR_DO(IO1)": [
+        "QSPI_FLASH"
+      ],
+      "/MEMORY_FLASH/NOR_IO2": [
+        "QSPI_FLASH"
+      ],
+      "/MEMORY_FLASH/NOR_IO3": [
+        "QSPI_FLASH"
+      ],
+      "/MEMORY_FLASH/~{NOR_CS}": [
+        "QSPI_FLASH"
+      ],
+      "/MEMORY_FMC/SDRAM_BA0": [
+        "SDRAM"
+      ],
+      "/MEMORY_FMC/SDRAM_BA1": [
+        "SDRAM"
+      ],
+      "/MEMORY_FMC/SDRAM_CKE": [
+        "SDRAM"
+      ],
+      "/MEMORY_FMC/SDRAM_CLK": [
+        "SDRAM"
+      ],
+      "/MEMORY_FMC/SDRAM_LDQM": [
+        "SDRAM"
+      ],
+      "/MEMORY_FMC/SDRAM_UDQM": [
+        "SDRAM"
+      ],
+      "/MEMORY_FMC/~{SDRAM_CAS}": [
+        "SDRAM"
+      ],
+      "/MEMORY_FMC/~{SDRAM_CS}": [
+        "SDRAM"
+      ],
+      "/MEMORY_FMC/~{SDRAM_RAS}": [
+        "SDRAM"
+      ],
+      "/MEMORY_FMC/~{SDRAM_WE}": [
+        "SDRAM"
+      ],
+      "/MEMORY_SD_CARD/SD_CLK": [
+        "SD_CARD"
+      ],
+      "/MEMORY_SD_CARD/SD_CMD": [
+        "SD_CARD"
+      ],
+      "/MEMORY_SD_CARD/SD_DET": [
+        "SD_CARD"
+      ],
+      "Net-(J6-Pin_11)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_13)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_14)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_15)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_16)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_17)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_21)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_22)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_23)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_24)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_25)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_26)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_29)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_30)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_31)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_32)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_33)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_7)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_8)": [
+        "LTDC"
+      ],
+      "Net-(J6-Pin_9)": [
+        "LTDC"
+      ],
+      "unconnected-(U4-NC-Pad40)": [
+        "SDRAM"
       ]
     },
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "PWR_3V3",
+        "pattern": "+3V3"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
