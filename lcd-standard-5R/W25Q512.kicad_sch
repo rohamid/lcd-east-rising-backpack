@@ -1160,7 +1160,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 8346080a-e77a-46ff-a8b0-7d61b510ae59)
+			(uuid 49905928-ae2e-404e-88f8-dad2cbc52bca)
 		)
 	)
 	(netclass_flag ""
@@ -1879,7 +1879,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-8-1EP_8x6mm_P1.27mm_EP3.4x4.3mm"
+		(property "Footprint" "W25Q256JVEIQ:SON127P800X600X80-9N"
 			(at 140.97 95.25 0)
 			(effects
 				(font
