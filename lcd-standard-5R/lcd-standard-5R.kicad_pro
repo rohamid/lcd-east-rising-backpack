@@ -147,7 +147,7 @@
         {
           "td_onpthpad": true,
           "td_onroundshapesonly": false,
-          "td_onsmdpad": true,
+          "td_onsmdpad": false,
           "td_ontrackend": false,
           "td_onvia": true
         }
@@ -613,7 +613,7 @@
         "pcb_color": "rgb(255, 0, 255)",
         "priority": 4,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.15,
         "via_diameter": 0.5,
         "via_drill": 0.3
       },
@@ -623,7 +623,7 @@
         "pcb_color": "rgb(0, 255, 0)",
         "priority": 5,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.1,
+        "track_width": 0.15,
         "via_diameter": 0.5,
         "via_drill": 0.3
       },

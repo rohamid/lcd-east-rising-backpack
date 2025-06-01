@@ -272,192 +272,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 -1.016)
-					(mid -1.2656 0)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.2656 0)
-					(end 0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Memory_EEPROM:CAT24C256"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -911,28 +725,16 @@
 		)
 	)
 	(junction
-		(at 123.19 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1f3c30fe-97bd-43e7-a1af-81d1eec3df2a")
-	)
-	(junction
 		(at 158.75 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f06bd42-df64-4346-948c-3ac803a09eb0")
 	)
 	(junction
-		(at 116.84 97.79)
+		(at 125.73 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4135710e-dc32-4cf6-92c0-d086f4a297f6")
-	)
-	(junction
-		(at 116.84 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "627ef96e-f889-4181-bc8c-201430ec062d")
+		(uuid "4431838d-a353-40fd-8cbd-0c611d797fab")
 	)
 	(junction
 		(at 138.43 111.76)
@@ -947,12 +749,6 @@
 		(uuid "7da21b4e-2728-467a-895d-55413cd4ccaf")
 	)
 	(junction
-		(at 123.19 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "84ae777c-954d-47ff-8472-f15072450fe1")
-	)
-	(junction
 		(at 161.29 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -962,29 +758,7 @@
 		(at 125.73 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "c03bdb4d-55d4-4cca-8ab4-a588661b922e")
-	)
-	(junction
-		(at 123.19 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c907c30d-9e46-4f68-9fc5-4a2a947de2e5")
-	)
-	(junction
-		(at 125.73 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de946a28-1709-4d5e-adf9-af3f6a104129")
-	)
-	(wire
-		(pts
-			(xy 123.19 87.63) (xy 125.73 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0162940a-02c3-4caa-934c-18996ba4107b")
+		(uuid "c9be0d35-0453-4571-8d77-5be8575eeb0c")
 	)
 	(wire
 		(pts
@@ -998,26 +772,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 111.76) (xy 123.19 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "12295f0f-5e3c-4d64-b64e-6b1fb60c59c7")
-	)
-	(wire
-		(pts
-			(xy 125.73 105.41) (xy 125.73 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d710089-9d2e-4907-a731-fc0ec80a2112")
-	)
-	(wire
-		(pts
 			(xy 148.59 111.76) (xy 138.43 111.76)
 		)
 		(stroke
@@ -1028,43 +782,43 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 111.76) (xy 138.43 111.76)
+			(xy 128.27 97.79) (xy 125.73 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2a4bbdea-9b49-448d-a306-8c0507f87d90")
+		(uuid "245014d2-0342-4b71-b14e-0e88c484ea97")
 	)
 	(wire
 		(pts
-			(xy 123.19 100.33) (xy 128.27 100.33)
+			(xy 125.73 102.87) (xy 128.27 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c28822a-b28e-49e3-bde0-b47bda6a7e19")
+		(uuid "2a6624b0-1ca7-4598-a11a-43d0c1ff2648")
 	)
 	(wire
 		(pts
-			(xy 123.19 105.41) (xy 123.19 100.33)
+			(xy 125.73 100.33) (xy 125.73 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3892687c-f000-4e54-8181-58adfe4644de")
+		(uuid "2e531a5e-dffd-4fbf-b29f-163e151de23d")
 	)
 	(wire
 		(pts
-			(xy 123.19 87.63) (xy 123.19 88.9)
+			(xy 125.73 100.33) (xy 128.27 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "446f7223-94e2-462a-87bb-63c8a930ad1b")
+		(uuid "434928b2-92d7-4762-9acd-4524bc643b01")
 	)
 	(wire
 		(pts
@@ -1088,23 +842,13 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 86.36) (xy 116.84 87.63)
+			(xy 125.73 97.79) (xy 125.73 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4e937208-a0a8-470f-8e86-24bbbf32372b")
-	)
-	(wire
-		(pts
-			(xy 116.84 87.63) (xy 116.84 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "524110fb-f594-4897-a8dd-fd59d007565b")
+		(uuid "526fe835-08e1-44b8-8c37-f0aa95006928")
 	)
 	(wire
 		(pts
@@ -1158,16 +902,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 97.79) (xy 116.84 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c32b5b2-8dc0-495e-9a83-6461242e3ce5")
-	)
-	(wire
-		(pts
 			(xy 161.29 100.33) (xy 161.29 95.25)
 		)
 		(stroke
@@ -1175,16 +909,6 @@
 			(type default)
 		)
 		(uuid "76b100b0-4ebc-4276-80e7-ca1c774d0384")
-	)
-	(wire
-		(pts
-			(xy 116.84 97.79) (xy 116.84 105.41)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8279b6c4-d0f7-4cc3-ac6e-9e25913704a6")
 	)
 	(wire
 		(pts
@@ -1198,43 +922,23 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 102.87) (xy 128.27 102.87)
+			(xy 125.73 111.76) (xy 138.43 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "992e7e04-acb3-4529-a622-d3725ef71d0a")
+		(uuid "a0e7a37d-6f6c-4bbf-bdcf-55ca9ef6c341")
 	)
 	(wire
 		(pts
-			(xy 116.84 87.63) (xy 123.19 87.63)
+			(xy 125.73 102.87) (xy 125.73 111.76)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e780469-d336-402c-a8bc-cb6191773bd1")
-	)
-	(wire
-		(pts
-			(xy 125.73 110.49) (xy 125.73 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2cb06c1-f632-4470-89bc-149054705cca")
-	)
-	(wire
-		(pts
-			(xy 116.84 110.49) (xy 116.84 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acd289bd-867a-49b4-9657-0bb5448bf14b")
+		(uuid "adb14007-022c-4c91-8ebb-c8937bcc997e")
 	)
 	(wire
 		(pts
@@ -1268,56 +972,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 88.9) (xy 125.73 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bea02fef-d37f-4ff1-8ed4-5335a6decbd1")
-	)
-	(wire
-		(pts
-			(xy 116.84 96.52) (xy 116.84 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf4a77db-5b67-43d2-a928-c5c200b56dfd")
-	)
-	(wire
-		(pts
-			(xy 125.73 96.52) (xy 125.73 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4e9a028-8d4e-427f-998a-c72e88588755")
-	)
-	(wire
-		(pts
-			(xy 123.19 110.49) (xy 123.19 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d02fe9e4-fdcb-413e-938e-fdf68cdc3a0b")
-	)
-	(wire
-		(pts
-			(xy 123.19 96.52) (xy 123.19 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4c80a28-71ce-473d-a599-5c0f21c656d8")
-	)
-	(wire
-		(pts
 			(xy 138.43 113.03) (xy 138.43 111.76)
 		)
 		(stroke
@@ -1345,16 +999,6 @@
 			(type default)
 		)
 		(uuid "f50e499f-ce43-4d27-8941-275e9257edbf")
-	)
-	(wire
-		(pts
-			(xy 123.19 111.76) (xy 125.73 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd88f95f-1970-410d-b8be-c05a02501b96")
 	)
 	(label "EE_SDA"
 		(at 170.18 97.79 180)
@@ -1397,162 +1041,6 @@
 			(justify left)
 		)
 		(uuid "c7af3d99-ff7c-4fb1-86dc-fd1e84a1d26e")
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 125.73 92.71 90)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "0a82fac2-eb2b-44fe-88c4-96f5f7e91d0f")
-		(property "Reference" "JP3"
-			(at 126.746 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "JMP"
-			(at 126.746 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 125.73 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 125.73 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 125.73 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a8cb9d84-28ce-4ed1-ada8-73b455afcf98")
-		)
-		(pin "2"
-			(uuid "3c9b74d0-2e56-4de1-b92d-682e8a972d23")
-		)
-		(instances
-			(project "lcd-standard-5R"
-				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/64adf780-462b-4d37-99f3-7bec8d2019cf"
-					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 125.73 107.95 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2808b11a-740a-4e36-8efe-10fa301162f3")
-		(property "Reference" "R16"
-			(at 127 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2K2"
-			(at 127 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 125.73 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 125.73 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 125.73 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C25879"
-			(at 125.73 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "549c3f0f-a404-40f5-8853-11636bb5acd4")
-		)
-		(pin "2"
-			(uuid "c7af7c48-2480-43fc-89cf-4c8cffd01d80")
-		)
-		(instances
-			(project "lcd-standard-5R"
-				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/64adf780-462b-4d37-99f3-7bec8d2019cf"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "Device:R_Small")
@@ -1628,85 +1116,6 @@
 			(project "lcd-standard-5R"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/64adf780-462b-4d37-99f3-7bec8d2019cf"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Small")
-		(at 123.19 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a7864ce-649c-48fc-a65e-3cf09f15d780")
-		(property "Reference" "R15"
-			(at 121.92 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2K2"
-			(at 121.92 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 123.19 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 123.19 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C25879"
-			(at 123.19 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "858323ab-784d-476a-954c-0498a2a474f2")
-		)
-		(pin "2"
-			(uuid "d670c77b-b4f3-4844-bf3e-41617309f2a0")
-		)
-		(instances
-			(project "lcd-standard-5R"
-				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/64adf780-462b-4d37-99f3-7bec8d2019cf"
-					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -1936,151 +1345,6 @@
 			(project "lcd-standard-5R"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/64adf780-462b-4d37-99f3-7bec8d2019cf"
 					(reference "#PWR070")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 116.84 92.71 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "6878985a-f10d-4429-a344-72238e88d121")
-		(property "Reference" "JP1"
-			(at 115.824 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "JMP"
-			(at 115.824 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 116.84 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 116.84 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 116.84 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "19e8fbf0-7970-448a-affb-3c4d200560ec")
-		)
-		(pin "2"
-			(uuid "27bd7e37-ba5e-47f5-a9c1-3f54d1beb769")
-		)
-		(instances
-			(project "lcd-standard-5R"
-				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/64adf780-462b-4d37-99f3-7bec8d2019cf"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 116.84 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6e50fdd6-b110-4e8b-a5af-e09f44d97ddb")
-		(property "Reference" "#PWR068"
-			(at 116.84 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 116.84 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 116.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 116.84 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0ac67a81-fac2-4cf6-a9c1-b337da111ab2")
-		)
-		(instances
-			(project "lcd-standard-5R"
-				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/64adf780-462b-4d37-99f3-7bec8d2019cf"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -2377,85 +1641,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small")
-		(at 116.84 107.95 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b6148ff0-f0b2-466c-95c5-0f99e49d2d96")
-		(property "Reference" "R14"
-			(at 115.57 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2K2"
-			(at 115.57 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small symbol"
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" "C25879"
-			(at 116.84 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fa1b4af4-81f7-476b-96c5-066944637bdd")
-		)
-		(pin "2"
-			(uuid "d62739ee-35c1-4b50-af5a-108703a442cf")
-		)
-		(instances
-			(project "lcd-standard-5R"
-				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/64adf780-462b-4d37-99f3-7bec8d2019cf"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 138.43 88.9 0)
 		(unit 1)
@@ -2516,85 +1701,6 @@
 			(project "lcd-standard-5R"
 				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/64adf780-462b-4d37-99f3-7bec8d2019cf"
 					(reference "#PWR069")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 123.19 92.71 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "ed577f49-73de-4ed4-8404-54df4047f38e")
-		(property "Reference" "JP2"
-			(at 122.174 91.44 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "JMP"
-			(at 122.174 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 123.19 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 123.19 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 123.19 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLCPCB Part #" ""
-			(at 123.19 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "984be950-a6d1-45e4-bad1-e8f000631809")
-		)
-		(pin "2"
-			(uuid "611ade82-a4fa-4c1b-818c-9021f58090af")
-		)
-		(instances
-			(project "lcd-standard-5R"
-				(path "/a9fe5be7-3a80-455e-a721-d53819db4a52/64adf780-462b-4d37-99f3-7bec8d2019cf"
-					(reference "JP2")
 					(unit 1)
 				)
 			)
