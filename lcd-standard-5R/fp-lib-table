@@ -11,4 +11,5 @@
   (lib (name "W25Q256JVEIQ")(type "KiCad")(uri "${KIPRJMOD}/lib/W25Q256JVEIQ")(options "")(descr ""))
   (lib (name "MT25QL256ABA1EW9-0SIT")(type "KiCad")(uri "${KIPRJMOD}/lib/MT25QL256ABA1EW9-0SIT")(options "")(descr ""))
   (lib (name "MT25QL512ABB1EW9-0SIT")(type "KiCad")(uri "${KIPRJMOD}/lib/MT25QL512ABB1EW9-0SIT")(options "")(descr ""))
+  (lib (name "KiCad")(type "KiCad")(uri "${KIPRJMOD}/lib/MIMXRT1052CVL5B/KiCad")(options "")(descr ""))
 )

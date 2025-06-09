@@ -994,6 +994,21 @@
       "Net-(J6-Pin_9)": [
         "LTDC"
       ],
+      "Net-(U5-CLK)": [
+        "QSPI_FLASH"
+      ],
+      "Net-(U5-DI(IO0))": [
+        "QSPI_FLASH"
+      ],
+      "Net-(U5-DO(IO1))": [
+        "QSPI_FLASH"
+      ],
+      "Net-(U5-IO2)": [
+        "QSPI_FLASH"
+      ],
+      "Net-(U5-IO3)": [
+        "QSPI_FLASH"
+      ],
       "unconnected-(U4-NC-Pad40)": [
         "SDRAM"
       ]
