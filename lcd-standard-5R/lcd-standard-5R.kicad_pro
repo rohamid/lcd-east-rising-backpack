@@ -220,8 +220,8 @@
           "spacing": 0.6
         },
         "single_track_defaults": {
-          "corner_radius_percentage": 80,
-          "corner_style": 1,
+          "corner_radius_percentage": 50,
+          "corner_style": 0,
           "max_amplitude": 1.0,
           "min_amplitude": 0.2,
           "single_sided": false,
@@ -1025,7 +1025,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "gerber",
+      "plot": "gerber/",
       "pos_files": "B.O.M/",
       "specctra_dsn": "",
       "step": "",
