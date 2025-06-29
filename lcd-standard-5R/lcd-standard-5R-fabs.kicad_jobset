@@ -78,7 +78,7 @@
       "settings": {
         "description": "",
         "drill_origin": "abs",
-        "excellon.combine_pth_npth": true,
+        "excellon.combine_pth_npth": false,
         "excellon.minimal_header": false,
         "excellon.mirror_y": false,
         "excellon.oval_drill_route": false,
